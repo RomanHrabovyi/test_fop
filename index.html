@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="conteiner">
+                <div class="sidebar__logo">
+                    <img src="./img/Group 301.png" alt="">
+                </div>
+                <nav class="sidebar__nav">
+                    <ul class="sidebar__menu">
+    
+                        <li class="sidebar__item" data-active="#content_1">
+                            <a href="#" class="sidebar__link">
+                                <div class="left-span"><img src="./img/key-square.svg" alt="">Dashboard</div>
+                                    <img src="./img/Vector.svg" alt="">
+                            </a>
+                        </li>
+    
+                        <li class="sidebar__item" data-active="#content_2"><a href="#" class="sidebar__link">
+                            <div class="left-span"><img src="./img/3d-square 1.svg" alt="">
+                                Product</div>
+                            
+                            <span><img src="./img/Vector.svg" alt=""></span>
+                            </a>
+                        </li>
+    
+    
+                        <li class="sidebar__item" data-active="#content_3">
+                            <a href="#" class="sidebar__link">
+                                <div class="left-span"><img id="changedImg"  src="./img/user-square-grey.svg" alt="">Customers</div>
+                                <img id="changedImg"  src="./img/Vector.svg" alt="">
+                            </a>
+                        </li>
+    
+    
+                        <li class="sidebar__item" data-active="#content_4"><a href="#" class="sidebar__link">
+                            <div class="left-span"><img src="./img/wallet-money 2.svg" alt="">
+                                Income</div>
+                            
+                            <span><img src="./img/Vector.svg" alt=""></span>
+                            </a></li>
+                        <li class="sidebar__item" data-active="#content_5"><a href="#" class="sidebar__link">
+                            <div class="left-span"><img src="./img/discount-shape 1.svg" alt="">
+                                Promote</div>
+                            
+                            <span><img src="./img/Vector.svg" alt=""></span>
+                            </a>
+                        </li>
+                        <li class="sidebar__item" data-active="#content_6"><a href="#" class="sidebar__link">
+                            <div class="left-span"><img src="./img/message-question 1.svg" alt="">
+                                Help</div>
+                            
+                            <span><img src="./img/Vector.svg" alt=""></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="sidebar__profile">
+                    <img src="./img/Ellipse 8.png" alt="Evano" class="sidebar__profile-image">
+                    <div class="sidebar__profile-info">
+                        <p class="sidebar__profile-name">Evano</p>
+                        <p class="sidebar__profile-role">Project Manager</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="main-content">
+            <div class="conteiner">
+                <header class="main-header">
+                    <h1 class="main-header__title">Hello Evano 👋🏻</h1>
+                </header>
+                <section class="content">
+                        <div class="content__item" id="content_1">content_1</div>
+                        <div class="content__item" id="content_2">content_2</div>
+                        <div class="content__item" id="content_3">content_3</div>
+                        <div class="content__item" id="content_4">content_4</div>
+                        <div class="content__item" id="content_5">content_5</div>
+                        <div class="content__item" id="content_6">content_6</div>
+                </section>
+                <section class="customers">
+                    <h2 class="customers__title">All Customers</h2>
+                    <p class="customers__active">Active Members</p>
+                    <div class="customers__list">
+                        <table class="customers__table">
+                            <thead>
+                                <tr class="customers__row">
+                                    <th class="customers__header">Customer Name</th>
+                                    <th class="customers__header">Company</th>
+                                    <th class="customers__header">Phone Number</th>
+                                    <th class="customers__header">Email</th>
+                                    <th class="customers__header">Country</th>
+                                    <th class="customers__header">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Customer rows will be added here -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="customers__pagination">
+                        <span class="customers__entries"></span>
+                        <ul class="customers__pages">
+                            <!-- Pagination buttons will be added here -->
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

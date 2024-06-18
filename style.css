@@ -83,6 +83,7 @@ body {
     padding: 15px;
     border-radius: 8px;
     align-items: center;
+    transition-duration: 0.3s;
 }
 
 .sidebar__link--active {
@@ -107,6 +108,7 @@ body {
 .sidebar__item--active .sidebar__link{
     background-color: #5932EA;
     color: #FFFFFF;
+    
 }
 
 .content__item {
@@ -245,6 +247,7 @@ body {
 
 .customers__pages li {
     margin-right: 5px;
+    transition-duration: 0.3s;
 }
 .customers__pages li a {
     text-decoration: none;
